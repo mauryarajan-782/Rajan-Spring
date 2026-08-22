@@ -7,68 +7,23 @@
     <!-- bean definitions here -->
     
     
-    <bean name="add1" class="seekho.spring.model.Address">
-    <property name="city" value="Pune"/>
-    <property name="state" value="Maharashtra"/>
-   	</bean>
-    
-    
-    <bean name="emp1" class="seekho.spring.model.Employee">
+    <bean name=" emp1" class="seekho.spring.model.Employee">
     
     	<property name="id" value="1011"/>
     	<property name="name" value="vikash"/>
     	<property name="gender" value="male"/>
-    	<property name="address" ref="add1"/>
-    	<property name="list">
-    		<list>
-    			<value>Hello</value>
-    			<value>356</value>
-    			<value>456</value>
-    			<value>null</value>
-    			<value>36</value>
-    			<value>3</value>
-    			<value>3456</value>
-    		</list>
-    	</property>
-    	
-    	<property name="set">
-    		<set>
-    			<value>1233</value>
-    			<value>33</value>
-    			<value>13</value>
-    			<value>123</value>
-    			<value>1233</value>
-    			<value>233</value>
-    			<value>1233</value>
-    			<value>1233</value>
-    		</set>
-    	</property>
-    	
-    	<property name="map">
-    		<map>
-    			<entry key="1" value="ONE"/>
-    			<entry key="2" value="TWO"/>
-    			<entry key="3" value="THREE"/>
-    			<entry key="4" value="FOUR"/>
-    			<entry key="2" value="two"/>
-    		</map>
-    	</property>
-    	
+    
+    
     </bean>
     
     
-    <bean name="add2" class="seekho.spring.model.Address">
-    <constructor-arg name="city" value="Noida"/>
-    <constructor-arg name="state" value="UP"/>
-   	</bean>
-   	
-    <bean name="emp2" class="seekho.spring.model.Employee">
-  		<constructor-arg name="id" value="222"/>
-		<constructor-arg name="name" value="Anurag"/>
-		<constructor-arg name="gender" value="male"/>
-		<constructor-arg name="address" ref="add2"/>
+    <bean name=" emp2" class="seekho.spring.model.Employee">
+    	<constructor-arg name="id" value="222"/>
+    	<constructor-arg name="name" value="Anurag"/>
+    	<constructor-arg name="gender" value="male"/>
     
     </bean>
+    
     
     
 
