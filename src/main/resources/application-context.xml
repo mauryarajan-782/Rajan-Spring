@@ -57,7 +57,7 @@
     </bean>
     
     
-    <bean name="add2" class="seekho.spring.model.Address">
+    <!--<bean name="add2" class="seekho.spring.model.Address">
     <constructor-arg name="city" value="Noida"/>
     <constructor-arg name="state" value="UP"/>
    	</bean>
@@ -68,7 +68,7 @@
 		<constructor-arg name="gender" value="male"/>
 		<constructor-arg name="address" ref="add2"/>
     
-    </bean>
+    </bean>-->
     
     
 
