@@ -8,6 +8,7 @@ public class Employee {
 	
 	public Employee() {
 		super();
+		id = 111;
 		System.out.println("Employee.Employee()");
 	}
 
