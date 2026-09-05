@@ -2,7 +2,7 @@ package seekho.spring.model;
 
 import org.springframework.stereotype.Component;
 
-@Component("add2")
+@Component(value = "add2")
 public class Address2 implements IAddress {
 	
 	public Address2()
